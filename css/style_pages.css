@@ -1,0 +1,164 @@
+body{
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-size: cover;
+    background-color: white;
+    overflow-x: hidden;
+    font-size: large;
+}
+.pageHeader {
+    text-align: center;
+    height: 445px;
+    /* margin: 0 0 160px; */
+    padding: 95px /*20px*/ 0;
+    background-color: rgba(55, 201, 157, 0.5);
+    position: relative;
+}
+.pageHeader .pathway {
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    width: 80%;
+    z-index: 40;
+    bottom: 30px;
+}
+.pathway li {
+    display: inline-block;
+}
+.pageHeader .pathway li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background: url(../assets/img/caret-pathway.png) no-repeat 100% 50%;
+    padding-right: 13px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+#myNavbar{
+    background-color: rgba(55, 201, 157, 0.5);
+    margin-bottom: 0px;
+    font-size: medium;
+}
+nav.navbar
+{
+    clear: both;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    border: none;
+}
+.container-fluid{
+    padding-right: 0px; 
+    padding-left: 0px;
+}
+.navbar-header{
+    padding-left: 100px;
+}
+.pageHeader .pathway li span{
+    text-decoration: none;
+    color: rgba(162, 197, 191, 1);
+    font-weight: 400;
+}
+nav.navbar .container-fluid .navbar-header a,nav.navbar .container-fluid #myNavbar ul li a{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+.produits{
+    margin: auto;
+    padding: auto;
+    background-color: rgba(55, 201, 157, 0.5); 
+}
+.produits .container-fluid .row .productPreview img{
+    height: 344.63px;
+    width: 263.75px;
+}
+.productPreview {
+    float: center;/*left*/
+    /*width: 15%;*/
+    /* margin: 0 2% 80px; */
+    padding: 2% 2%;
+    text-align: center;
+    color: #1e1e1e;
+}
+.produits .container-fluid .row{
+    margin: 25px ;
+}
+.fa-3x{
+    font-size: 3em;
+}
+#produits{
+    margin: auto;
+    padding: auto;
+     background-color: rgba(55, 201, 157, 0.5); 
+}
+.font-aweasome{
+    margin-top: 25px;
+}
+a.d-block{
+    text-decoration: none;
+    color: grey;
+}
+.lien{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+hr.divider {
+    max-width: 3.25em;
+    border-width: 0.4rem;
+    border-color: #f4623a;
+}
+h2{
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /*font-weight: 500;*/
+    line-height: 1.2;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: large;
+}
+#contact{
+    background-color: rgba(55, 201, 157, 0.5);
+}
+h5{
+    font-size: 18px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+header{
+    background-image: url(../assets/img/palmiergauche.png) ,url(../assets/img/gauche.png);
+    background-position: right center,left center;
+  background-repeat: no-repeat;
+  
+}
+nav .container-fluid #myNavbar ul li a:hover{
+    background-color: transparent;
+    color: grey ;
+}
+.nav>li>a:focus{
+    background-color: transparent;
+    color:red;
+    border: none;
+}
+.icon-bar{
+    /*color: black;*/
+    background-color: black;
+}
+.navig{
+    background-color: rgba(55, 201, 157, 0.5);
+}
